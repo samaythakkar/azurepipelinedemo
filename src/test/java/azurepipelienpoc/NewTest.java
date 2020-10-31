@@ -8,7 +8,7 @@ public class NewTest {
   public void urlTest() {
 	  String currentUrl =  HooksClass.getDriver().getCurrentUrl();
 	  System.out.println("CURRENT URL IS " +currentUrl);
-	  Assert.assertEquals(currentUrl, "https://www.abc.com/");
+	  Assert.assertEquals(currentUrl, "https://www.google.com/");
   }
   
   @Test
