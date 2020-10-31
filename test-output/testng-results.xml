@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-31T00:47:47 IST" name="Default suite" finished-at="2020-10-31T00:47:59 IST" duration-ms="12264">
+  <suite started-at="2020-10-31T18:52:27 IST" name="Default suite" finished-at="2020-10-31T18:52:33 IST" duration-ms="6443">
     <groups>
     </groups>
-    <test started-at="2020-10-31T00:47:47 IST" name="Default test" finished-at="2020-10-31T00:47:59 IST" duration-ms="12264">
+    <test started-at="2020-10-31T18:52:27 IST" name="Default test" finished-at="2020-10-31T18:52:33 IST" duration-ms="6443">
       <class name="azurepipelienpoc.NewTest">
-        <test-method signature="f()[pri:0, instance:azurepipelienpoc.NewTest@61322f9d]" started-at="2020-10-31T00:47:47 IST" name="f" finished-at="2020-10-31T00:47:59 IST" duration-ms="12155" status="FAIL">
+        <test-method signature="urlTest()[pri:0, instance:azurepipelienpoc.NewTest@2e1d27ba]" started-at="2020-10-31T18:52:27 IST" name="urlTest" finished-at="2020-10-31T18:52:33 IST" duration-ms="6373" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [https://www.asdfsaf.com/] but found [https://www.google.com/]]]>
+              <![CDATA[expected [https://www.abc.com/] but found [https://www.google.com/]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [https://www.asdfsaf.com/] but found [https://www.google.com/]
+              <![CDATA[java.lang.AssertionError: expected [https://www.abc.com/] but found [https://www.google.com/]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 at org.testng.Assert.assertEquals(Assert.java:122)
 at org.testng.Assert.assertEquals(Assert.java:629)
 at org.testng.Assert.assertEquals(Assert.java:639)
-at azurepipelienpoc.NewTest.f(NewTest.java:11)
+at azurepipelienpoc.NewTest.urlTest(NewTest.java:11)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,7 +54,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
+        </test-method> <!-- urlTest -->
       </class> <!-- azurepipelienpoc.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

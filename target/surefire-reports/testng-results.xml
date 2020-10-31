@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-31T02:33:16 IST" name="Suite" finished-at="2020-10-31T02:33:25 IST" duration-ms="9159">
+  <suite started-at="2020-10-31T22:29:32 IST" name="Suite" finished-at="2020-10-31T22:29:40 IST" duration-ms="7485">
     <groups>
     </groups>
-    <test started-at="2020-10-31T02:33:16 IST" name="Test" finished-at="2020-10-31T02:33:25 IST" duration-ms="9159">
+    <test started-at="2020-10-31T22:29:32 IST" name="Test" finished-at="2020-10-31T22:29:40 IST" duration-ms="7485">
       <class name="azurepipelienpoc.NewTest">
-        <test-method signature="titleTest()[pri:0, instance:azurepipelienpoc.NewTest@70b0b186]" started-at="2020-10-31T02:33:16 IST" name="titleTest" finished-at="2020-10-31T02:33:22 IST" duration-ms="5974" status="PASS">
+        <test-method signature="titleTest()[pri:0, instance:azurepipelienpoc.NewTest@7364985f]" started-at="2020-10-31T22:29:32 IST" name="titleTest" finished-at="2020-10-31T22:29:39 IST" duration-ms="7074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method signature="urlTest()[pri:0, instance:azurepipelienpoc.NewTest@70b0b186]" started-at="2020-10-31T02:33:22 IST" name="urlTest" finished-at="2020-10-31T02:33:25 IST" duration-ms="3140" status="FAIL">
+        <test-method signature="urlTest()[pri:0, instance:azurepipelienpoc.NewTest@7364985f]" started-at="2020-10-31T22:29:39 IST" name="urlTest" finished-at="2020-10-31T22:29:39 IST" duration-ms="38" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [https://www.abc.com/] but found [https://www.google.com/]]]>

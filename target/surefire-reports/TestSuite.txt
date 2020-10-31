@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.966 s <<< FAILURE! - in TestSuite
-azurepipelienpoc.NewTest.urlTest  Time elapsed: 3.174 s  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.768 s <<< FAILURE! - in TestSuite
+azurepipelienpoc.NewTest.urlTest  Time elapsed: 0.344 s  <<< FAILURE!
 java.lang.AssertionError: expected [https://www.abc.com/] but found [https://www.google.com/]
 	at azurepipelienpoc.NewTest.urlTest(NewTest.java:11)
 

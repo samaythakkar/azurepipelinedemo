@@ -8,4 +8,8 @@
   </class>
   </classes>
   </test> <!-- Test -->
+  
+  <listeners>
+       <listener class-name="azurepipelienpoc.TestListener"/>
+  </listeners> 
 </suite> <!-- Suite -->

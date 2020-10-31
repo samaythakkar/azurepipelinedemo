@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="azurepipelienpoc.NewTest" class="method navigator-link" hash-for-method="f">f</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="azurepipelienpoc.NewTest" class="method navigator-link" hash-for-method="urlTest">urlTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -127,17 +127,17 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="f">
-                  </a> <!-- f -->
-                  <span class="method-name">f</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [https://www.asdfsaf.com/] but found [https://www.google.com/]
+                  <a name="urlTest">
+                  </a> <!-- urlTest -->
+                  <span class="method-name">urlTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://www.abc.com/] but found [https://www.google.com/]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 	at org.testng.Assert.assertEquals(Assert.java:122)
 	at org.testng.Assert.assertEquals(Assert.java:629)
 	at org.testng.Assert.assertEquals(Assert.java:639)
-	at azurepipelienpoc.NewTest.f(NewTest.java:11)
+	at azurepipelienpoc.NewTest.urlTest(NewTest.java:11)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -175,7 +175,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/s_/3hy02fcj3d51hnbkrfh7drjw0000gn/T/testng-eclipse--223382819/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/s_/3hy02fcj3d51hnbkrfh7drjw0000gn/T/testng-eclipse-1123532714/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -186,7 +186,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;azurepipelienpoc.NewTest&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;f&quot;/&gt;
+          &lt;include name=&quot;urlTest&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- azurepipelienpoc.NewTest --&gt;
     &lt;/classes&gt;
@@ -230,14 +230,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'f')
+data.setCell(0, 1, 'urlTest')
 data.setCell(0, 2, 'azurepipelienpoc.NewTest')
-data.setCell(0, 3, 12155);
+data.setCell(0, 3, 6373);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -252,9 +252,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">azurepipelienpoc.NewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">titleTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -267,7 +274,7 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">f</span>
+                <span class="method-name">urlTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
