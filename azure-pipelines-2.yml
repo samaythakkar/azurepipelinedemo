@@ -11,7 +11,7 @@ pool:
 resources:
   pipelines:
     - pipeline: mySourcePipeline
-      source: 'Pipelines Trigger - Source'
+      source: 'samaythakkar.pytestbdddemo'
       trigger:
         branches:
         - master
